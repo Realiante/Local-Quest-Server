@@ -1,0 +1,447 @@
+POST http://vm01.bug.guru:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T081745.200.json
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T013124.200.json
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T125307.200.json
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T124236.200.json
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T121253.200.json
+
+###
+
+GET http://localhost:8080/api/hints
+Content-Type: application/json
+token: 65635706-7aa9-4d2f-9660-e778c1c2fde4
+
+<> 2019-05-01T115035.200.json
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T115026.200.json
+
+###
+
+GET http://localhost:8080/api/hints
+Content-Type: application/json
+token: 87b9aad2-29f5-44f1-86f1-00449109d41a
+
+###
+
+POST http://172.17.0.6:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-05-01T114916.200.json
+
+###
+
+POST http://172.17.255.254:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T085212.200.json
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T085121.404.html
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T084956.404.html
+
+###
+
+POST http://localhost:8080/api/registration
+Content-Type: application/json
+
+{
+"loginName": "new",
+  "password": "new"
+}
+
+<> 2019-04-11T084951.404.html
+
+###
+
+POST http://localhost:8080/api/registration
+Content-Type: application/json
+
+{
+"loginName": "new",
+  "password": "new"
+}
+
+<> 2019-04-11T084620.400.html
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T084553.400.html
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/notNeeded
+token: 7110bb73-1621-4424-833d-a466c2ff4568
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/notNeeded
+Content-Type: application/json
+token: 7110bb73-1621-4424-833d-a466c2ff4568
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T050600.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testunlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenunlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700g
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenunlockedd/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenunlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenlocked/notNeeded
+Content-Type: application/json
+token: 7c060921-7dc0-4f2a-aeb0-e32af2c16700
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T044537.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenlocked/notNeeded
+Content-Type: application/json
+token: 33c6d7f9-d6b3-4b9a-8d5b-f818b2586e3e
+
+<> 2019-04-11T043757.500.html
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T043744.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/find/hiddenlocked/notNeeded
+Content-Type: application/json
+token: 280cd7b7-a161-42ec-a63b-ffbcc0c76f39
+
+<> 2019-04-11T043313.500.html
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/notNeeded
+Content-Type: application/json
+token: 280cd7b7-a161-42ec-a63b-ffbcc0c76f39
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/l
+Content-Type: application/json
+token: 280cd7b7-a161-42ec-a63b-ffbcc0c76f39
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T043233.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/l
+Content-Type: application/json
+token: ca7a0086-eeda-475b-8e34-37e259a5e938
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/l
+Content-Type: application/json
+token: ca7a0086-eeda-475b-8e34-37e259a5e938
+
+###
+
+GET http://localhost:8080/api/hints/single/find/testlocked/
+Content-Type: application/json
+token: ca7a0086-eeda-475b-8e34-37e259a5e938
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: ca7a0086-eeda-475b-8e34-37e259a5e938
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T023024.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 406a971f-d5c0-4f51-93da-d90717808e44
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T022101.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 72085465-2485-4b77-aff3-dcb9657f6640
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 72085465-2485-4b77-aff3-dcb9657f6640
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 72085465-2485-4b77-aff3-dcb9657f6640
+
+<> 2019-04-11T021644.500.html
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 72085465-2485-4b77-aff3-dcb9657f6640
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T021340.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 9b5823d3-867f-4268-996e-9a84596574ec
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T021003.200.json
+
+###
+
+GET http://localhost:8080/api/hints/single/unlock/testlocked/sesame
+Content-Type: application/json
+token: 4cef2886-a73f-4342-9f81-2fb5c7b9aaa2
+
+###
+
+POST http://192.168.1.10:8080/api/login
+Content-Type: application/json
+
+{
+  "loginName": "qwerty",
+  "password": "asdfg"
+}
+
+<> 2019-04-11T020808.200.json
+
+###
+

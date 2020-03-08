@@ -1,0 +1,16 @@
+[
+  {
+    "body": "Locked",
+    "code": "testlocked",
+    "header": "Locked Hint test",
+    "id": -2,
+    "locked": true
+  },
+  {
+    "body": "This hint is already unlocked",
+    "code": "testunlocked",
+    "header": "Unlocked Hint test",
+    "id": -1,
+    "locked": false
+  }
+]
